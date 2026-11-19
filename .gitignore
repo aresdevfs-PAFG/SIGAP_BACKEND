@@ -1,0 +1,29 @@
+# Maven / Java
+/target/
+*.class
+*.jar
+*.war
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+application-local.yml
+
+# Frontend dependencies and build output (if added later)
+/node_modules/
+/dist/
+/.angular/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
